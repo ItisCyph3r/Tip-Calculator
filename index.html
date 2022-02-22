@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<htmllang>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <h1 id="title">@thehabringer</h1>
+        <!-- <div class="plswork">
+        <div class="wrapper">
+            <div class="icon facebook">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook-f"></i></span>
+            </div>
+            <div class="icon twitter">
+                <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i></span>
+            </div>
+            <div class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i></span>
+            </div>
+            <div class="icon github">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+            </div>
+            <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <span><i class="fab fa-youtube"></i></span>
+            </div>
+        </div>
+        </div> -->
+        <div class="display">
+            <div class="control-panel">
+                <h4 id="subtitle">Bill</h3>
+                <span class="currencyinput"><input type="text" id="bill" name="bill" placeholder=""></span>
+                <h4 id="no-people">Number of People</h3>
+                <input type="text" id="person" name="bill" placeholder="">
+                <h4 id="select-tip">Select Tip %</h3>
+                <div class="button-container">
+                <button type="button" class="options" id="button1" onclick="tip5()">5%</button>
+                <button type="button" class="options" id="button2" onclick="tip10()">10%</button>
+                <button type="button" class="options" id="button3" onclick="tip15()">15%</button>
+                <button type="button" class="options" id="button4" onclick="tip20()">20%</button>
+                <button type="button" class="options" id="button5" onclick="tip25()">25%</button>
+                <button type="button" class="options" id="button5" onclick="tip30()">30%</button>
+                <!-- <button type="button" class="options" id="button6" style="background-color: silver; color: black;">Custom</button>
+                <input type="text" id="custom" name="bill" placeholder=""> -->
+                </div>
+                
+            </div>
+            <div class="canvas">
+                <div class="tip-amount-holder">
+                    <div>
+                    <h4 class="tip-amount">Tip Amount</h4>
+                    <h6 class="tip-amount-person">/ person</h6>
+                    </div>
+                    <div id="display-tip">
+                        $
+                    </div>
+                </div>
+                <br>
+                <div class="tip-amount-holder">
+                    <div>
+                        <h4 class="tip-amount">Total Amount</h4>
+                        <h6 class="tip-amount-person">/ person</h6>
+                    </div>
+                    <div id="display-amount">
+                        $
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
